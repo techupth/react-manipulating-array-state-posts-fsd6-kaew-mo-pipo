@@ -1,5 +1,5 @@
 import { useState } from "react";
-import PostData from "../data/post";
+import PostData from "../data/postdata";
 
 function Posts() {
   const [postDataState, setPostDataState] = useState(PostData);
